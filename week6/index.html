@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WEEK 6 ASSIGNMENT</title>
+</head>
+<body>
+    <h1>creating an interactive webpage</h1>
+
+<form id="userform">
+    <div>
+    <label for="username">Username</label>
+    <input type="text"  id="username" placeholder="janedoe" required>  
+    </div>
+    <div>
+    <label for="email">Email</label>
+    <input type="text" id="email" placeholder="johndoe@domain.com" required>
+    </div>
+    <div>
+    <button type="button" id = "sbmtbtn">Submit</button>
+    <p id = "formMessage"></p>
+    </div>
+</form>
+<br>
+<!--interactivity1 button that changes the background color-->
+<button id="colorbtn">Change background color</button>
+<br>
+<!--ineractivity2 counter-->
+<p id="counter"> counter: 0</p>
+<button id="increasebutton">Increase</button>
+<button id="reset"> Reset </button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

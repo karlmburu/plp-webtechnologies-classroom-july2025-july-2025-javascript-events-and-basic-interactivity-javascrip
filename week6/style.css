@@ -1,0 +1,30 @@
+body{
+    font-family: 'Consolas', 'Monaco', 'Lucida Console','Liberation Mono','DejaVu Sans Mono', monospace;
+    background-color: white;
+    margin: 20px;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+form{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    background-color: lightseagreen ;
+    text-align: center;
+    font-size: medium;
+
+}
+#formMessage {
+    font-weight: bold;
+    margin-top: 10px;
+    color: darkred;
+}
+button{
+    font-family: 'Consolas', 'Monaco', 'Lucida Console','Liberation Mono','DejaVu Sans Mono', monospace;
+    font-size: 15px;
+    background: teal;
+    cursor: pointer;
+
+}
